@@ -1,10 +1,6 @@
 header {
   height: 200px;
-  background-color: rgb(
-    0,
-    0,
-    0
-  ); /* For browsers that do not support gradients */
+  background-color: black
 }
 .contenedor {
 
