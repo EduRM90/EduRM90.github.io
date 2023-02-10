@@ -1,6 +1,8 @@
 header {
   height: 200px;
-  background-color: black
+  background-color: black;
+  background-image: linear-gradient(black, #1e3a5f);
+  
 }
 .contenedor {
 
