@@ -14,10 +14,20 @@ header {
 .logo {
   width: 45%;
 }
+.contenedor2{
+  
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+}
 
 .kratos2{
   width: 50%;
   
+}
+
+.coco{
+  width: 50%;
 }
 
 h1 {
