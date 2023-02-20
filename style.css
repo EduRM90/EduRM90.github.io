@@ -4,7 +4,13 @@
 
 header {
   background-image: linear-gradient(black, #1e3a5f);
+  position:relative;
 }
+
+.logo_esquina{
+  position:absolute
+}
+
 .contenedor {
   display: flex;
   justify-content: center;
@@ -12,22 +18,27 @@ header {
 }
 
 .logo {
-  width: 45%;
+  width: 50%;
 }
 .contenedor2{
-  
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: end;
 }
 
 .kratos2{
-  width: 50%;
+  width: 30%;
   
 }
 
 .coco{
-  width: 50%;
+  width: 40%;
+}
+.panel{
+  
 }
 
 h1 {
