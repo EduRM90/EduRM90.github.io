@@ -27,7 +27,8 @@ header {
 }
 
 body {
-  background-image: url(images/Fondogaleria1.jpg);
+ /* background-image: url(images/Fondogaleria1.jpg); */
+ background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
 }
