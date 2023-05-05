@@ -1,160 +1,163 @@
-*{
-    margin: 0;
-  }
-  
-  header {
-    position:relative;
-    display:flex;
-    justify-content: space-between;
-    height: 200px;
-  }
-  .logo_esquina{
-    position:absolute;
-    left: 0;
-    top: 0;
-  }
-  .ps5 {
-    width:290px;
-    height:197px;
-  }
-  .contenedor {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 30%;
-    height: 100%;
-    width: 100%;
-  }
-
- body{
-    background-image: url(images/Fondogaleria1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
- }
-
- .main{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
- }
-
- .espaciosuperior{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-    margin-bottom: 3%;
- }
-
- .bloqueimagenes{
-    display: flex;
-    justify-content: space-around;
- }
- .bloquimagenes img{
-    width: 0px;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .8;
-    transition: .5s ease;
-    object-fit: cover;
- }
- 
- .bloqueimagenes1{
-    display:flex;
-    flex-direction: column;
-    width: 30%;
- }
-
- .imagen1{
-    margin: 5px 5px 5px 5px;
- }
- .imagen2{
-    margin: 5px 5px 5px 5px;
- }
- .imagen3{
-    margin: 5px 5px 5px 5px;
- }
-
- .bloqueimagenes2 {
-    display:flex;
-    flex-direction: column;
-    width: 30%;
- }
- .imagen4{
-    margin: 5px 5px 5px 5px;
- }
- .imagen5{
-    margin: 5px 5px 5px 5px;
- }
- .imagen6{
-    margin: 5px 5px 5px 5px;
- }
-
- .imagen1:hover{
-    margin: 5px 5px 5px 5px;
-    transition: .5s ease;
-    filter: contrast(120%);
-    transform: scale(1.5);
-    
- }
- .imagen2:hover{
-    margin: 5px 5px 5px 5px;
-    transition: .5s ease;
-    filter: contrast(120%);
-    transform: scale(1.5); }
- .imagen3:hover{
-    margin: 5px 5px 5px 5px;
-    transition: .5s ease;
-    filter: contrast(120%);
-    transform: scale(1.5); }
-
- .imagen4:hover{
-    margin: 5px 5px 5px 5px;
-    transition: .5s ease;
-    filter: contrast(120%);
-    transform: scale(1.5); }
- .imagen5:hover{
-    margin: 5px 5px 5px 5px;
-    transition: .5s ease;
-    filter: contrast(120%);
-    transform: scale(1.5); }
- .imagen6:hover{
-    margin: 5px 5px 5px 5px;
-    transition: .5s ease;
-    filter: contrast(120%);
-    transform: scale(1.5); 
+* {
+  margin: 0;
 }
- .volver:hover{
-    background-image: url(images/botoneVOLVERactivo.png);
-    }
-    
- .espacioprefooter{
-    display:flex;
-    justify-content:center;
-    margin-bottom: 10px;
-    height: 100px;
- }
- footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 5%;
-    background-image: linear-gradient(#1e3a5f, #000000);
-    display: flex;
-    justify-content: flex-end;
-    align-items: end;
-    gap: 15px;
-  }
-  .mensaje{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger;
-    color:#ffffff;
-  }
-  
-  .LK{
-    height: 40px;
-  }
-  
-  .GM{
-    height: 40px;
-  }
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+}
+.logo_esquina {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.ps5 {
+  width: 290px;
+  height: 197px;
+}
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 30%;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url(images/Fondogaleria1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.espaciosuperior {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.bloqueimagenes {
+  display: flex;
+  justify-content: space-around;
+}
+.bloquimagenes img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+  object-fit: cover;
+}
+
+.bloqueimagenes1 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.imagen1 {
+  margin: 5px 5px 5px 5px;
+}
+.imagen2 {
+  margin: 5px 5px 5px 5px;
+}
+.imagen3 {
+  margin: 5px 5px 5px 5px;
+}
+
+.bloqueimagenes2 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.imagen4 {
+  margin: 5px 5px 5px 5px;
+}
+.imagen5 {
+  margin: 5px 5px 5px 5px;
+}
+.imagen6 {
+  margin: 5px 5px 5px 5px;
+}
+
+.imagen1:hover {
+  margin: 5px 5px 5px 5px;
+  transition: 0.5s ease;
+  filter: contrast(120%);
+  transform: scale(1.5);
+}
+.imagen2:hover {
+  margin: 5px 5px 5px 5px;
+  transition: 0.5s ease;
+  filter: contrast(120%);
+  transform: scale(1.5);
+}
+.imagen3:hover {
+  margin: 5px 5px 5px 5px;
+  transition: 0.5s ease;
+  filter: contrast(120%);
+  transform: scale(1.5);
+}
+
+.imagen4:hover {
+  margin: 5px 5px 5px 5px;
+  transition: 0.5s ease;
+  filter: contrast(120%);
+  transform: scale(1.5);
+}
+.imagen5:hover {
+  margin: 5px 5px 5px 5px;
+  transition: 0.5s ease;
+  filter: contrast(120%);
+  transform: scale(1.5);
+}
+.imagen6:hover {
+  margin: 5px 5px 5px 5px;
+  transition: 0.5s ease;
+  filter: contrast(120%);
+  transform: scale(1.5);
+}
+.volver:hover {
+  background-image: url(images/botoneVOLVERactivo.png);
+}
+
+.espacioprefooter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  height: 100px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  background-image: linear-gradient(#1e3a5f, #000000);
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  gap: 15px;
+}
+.mensaje {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  color: #ffffff;
+}
+
+.LK {
+  height: 40px;
+}
+
+.GM {
+  height: 40px;
+}
